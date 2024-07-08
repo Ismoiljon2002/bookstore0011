@@ -1,0 +1,29 @@
+
+// Colors
+$base-blue: #6200EE;
+$base-grey: #151515;
+
+
+.page {
+    min-height: 100vh;
+    background-image: url('./src/assets/img/bg-rectangle.png');    
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+
+button {
+    font-weight: 500 !important;
+    font-family: 'Mulish', sans-serif !important;
+    padding: 10px 24px !important;
+    color: $base-blue ;
+    border: 1px solid $base-blue;
+    outline: none !important;
+    text-transform: capitalize !important;
+    box-shadow: none !important;
+
+    &.MuiButton-contained {
+        color: #fff ;
+        background-color: $base-blue !important;
+    }
+}

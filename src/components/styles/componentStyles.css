@@ -1,0 +1,63 @@
+.page {
+  min-height: 100vh;
+  background-image: url("./src/assets/img/bg-rectangle.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+button {
+  font-weight: 500 !important;
+  font-family: "Mulish", sans-serif !important;
+  padding: 10px 24px !important;
+  color: #6200EE;
+  border: 1px solid #6200EE;
+  outline: none !important;
+  text-transform: capitalize !important;
+  box-shadow: none !important;
+}
+button.MuiButton-contained {
+  color: #fff;
+  background-color: #6200EE !important;
+}
+
+.modal-dialog {
+  padding: 50px;
+}
+
+.modal-content {
+  border-radius: 12px;
+  box-shadow: 0px 4px 32px 0px rgba(51, 51, 51, 0.04);
+  max-width: 430px !important;
+  padding: 10px 18px;
+}
+.modal-content .modal-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #151515;
+}
+.modal-content .close-btn {
+  background-color: transparent;
+  color: #151515;
+  width: 24px;
+  height: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+  padding: 1px !important;
+  margin: -5px 0 0;
+}
+.modal-content label {
+  margin: 16px 0 2px;
+  font-weight: 500;
+}
+.modal-content .modal-body .btns {
+  display: flex;
+  gap: 12px;
+  padding: 28px 0 0;
+}
+.modal-content .modal-body .btns button {
+  width: calc(50% - 6px);
+}
+
+.alert {
+  z-index: 9999;
+}/*# sourceMappingURL=componentStyles.css.map */

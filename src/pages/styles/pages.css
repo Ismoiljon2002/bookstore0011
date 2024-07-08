@@ -1,0 +1,226 @@
+.page {
+  min-height: 100vh;
+  background-image: url("./src/assets/img/bg-rectangle.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+button {
+  font-weight: 500 !important;
+  font-family: "Mulish", sans-serif !important;
+  padding: 10px 24px !important;
+  color: #6200EE;
+  border: 1px solid #6200EE;
+  outline: none !important;
+  text-transform: capitalize !important;
+  box-shadow: none !important;
+}
+button.MuiButton-contained {
+  color: #fff;
+  background-color: #6200EE !important;
+}
+
+.home header {
+  background-color: transparent !important;
+  padding: 12px 0;
+  box-shadow: none;
+}
+.home header input {
+  color: #fff;
+  letter-spacing: 0.16px;
+  font-weight: 400;
+  width: 270px;
+}
+.home header input::-moz-placeholder {
+  color: #fefefe;
+}
+.home header input::placeholder {
+  color: #fefefe;
+}
+.home header .css-v4u5dn-MuiInputBase-root-MuiInput-root:before {
+  border-bottom: none;
+}
+.home .logo {
+  margin: 0 24px 0 0;
+}
+.home .css-i9gxme h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  margin: 40px 0 70px;
+}
+.home .css-i9gxme h2 span {
+  color: #6200EE;
+}
+.home .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.home .cards .MuiCard-root {
+  position: relative;
+  flex: 1 1 calc(33% - 24px);
+  width: calc(33% - 24px);
+  max-width: calc(33% - 30px);
+  padding: 32px;
+  margin: 12px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 24px 0px rgba(51, 51, 51, 0.08);
+  overflow: visible;
+}
+.home .cards .MuiCard-root > div {
+  padding: 0;
+}
+.home .cards .MuiCard-root h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #151515;
+  font-family: "Montserrat", sans-serif;
+}
+.home .cards .MuiCard-root p {
+  font-size: 14px;
+  line-height: 21px;
+}
+.home .cards .MuiCard-root:hover .buttons {
+  display: block;
+}
+.home .cards .MuiCard-root .buttons {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  top: 15px;
+  right: 0;
+  transition: 0.3s ease;
+}
+.home .cards .MuiCard-root .buttons button {
+  padding: 8px !important;
+  display: block;
+  min-width: 0 !important;
+  width: 35px;
+  height: 35px;
+  background-color: rgba(21, 21, 21, 0.7019607843);
+  transform: translateX(100%);
+  margin: 1px 0;
+  box-shadow: 0 6px 32px rgba(21, 21, 21, 0.4784313725);
+  border-radius: 6px 6px 6px 0;
+  color: #fff;
+}
+.home .cards .MuiCard-root .buttons button.edit {
+  border-radius: 0 6px 6px 6px;
+  background-color: #6200EE;
+}
+.home .cards .MuiCard-root .buttons button.delete, .home .cards .MuiCard-root .buttons button.New {
+  background-color: #FF4D4F;
+}
+.home .cards .MuiCard-root .buttons button.Reading {
+  background: #FFEC43;
+}
+.home .cards .MuiCard-root .buttons button.Finished {
+  background: #00FF29;
+}
+.home .cards .status {
+  padding: 3px 12px;
+  background-color: red;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 12px;
+  margin: 16px 0 0;
+}
+.home .cards .status.Reading {
+  background: #FFEC43;
+}
+.home .cards .status.Finished {
+  background: #00FF29;
+}
+.home .search-result-container {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  height: 500px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 20px;
+  gap: 10px;
+}
+.home .search-result-container .search-card {
+  flex: 1 1 200px;
+  width: 170px;
+  max-width: 250px;
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border-radius: 6px;
+}
+.home .search-result-container .search-card h5 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+.home .search-result-container .search-card p {
+  font-size: 12px;
+  line-height: 13px;
+  padding: 2px 0;
+}
+.home .search-result-container .search-card button {
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold !important;
+  color: #000;
+  border: 1px solid #000;
+  padding: 3px !important;
+}
+
+.signIn .MuiCard-root,
+.signUp .MuiCard-root {
+  width: 430px;
+  padding: 48px 28px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 32px 0px rgba(51, 51, 51, 0.04);
+}
+.signIn .MuiCard-root h2,
+.signUp .MuiCard-root h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  padding: 0 0 20px;
+}
+.signIn .MuiCard-root label,
+.signUp .MuiCard-root label {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 16px 0 0;
+}
+.signIn .MuiCard-root button,
+.signUp .MuiCard-root button {
+  font-size: 18px;
+  margin: 36px 0 12px;
+}
+.signIn .MuiCard-root p,
+.signUp .MuiCard-root p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.notFound img {
+  width: 40%;
+}
+.notFound button {
+  margin: 72px 6px !important;
+  width: 240px !important;
+}
+
+@media (max-width: 767px) {
+  .home .cards .MuiCard-root {
+    flex: 1 1 calc(50% - 24px);
+    width: calc(50% - 24px);
+    max-width: calc(50% - 30px);
+  }
+}
+@media (max-width: 550px) {
+  .home .cards .MuiCard-root {
+    flex: 1 1 calc(100% - 24px);
+    width: calc(100% - 24px);
+    max-width: calc(100% - 30px);
+  }
+}/*# sourceMappingURL=pages.css.map */
