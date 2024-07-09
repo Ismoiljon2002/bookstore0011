@@ -31,7 +31,7 @@
         h2 {
             font-size: 36px;
             font-weight: 700;
-            color: #fff;
+            color: #ffffff;
             margin: 40px 0 70px;
 
             span {
@@ -246,6 +246,7 @@
         max-width: calc(50% - 30px);
     }
 }
+
 @media (max-width: 550px) {
     .home .cards .MuiCard-root {
         flex: 1 1 calc(100% - 24px);

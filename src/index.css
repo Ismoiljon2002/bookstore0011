@@ -30,3 +30,9 @@ body {
 #root {
   min-height: 100vh;
 }
+.page {
+  min-height: 100vh;
+  background-image: url("./assets/img/bg-rectangle.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+}
