@@ -95,6 +95,7 @@ function SignInPage() {
                             placeholder="Enter Your Username"
                             fullWidth
                             onChange={e => setUsername(e.target.value)}
+                            required
                         />
 
                         <label>Password</label>
@@ -105,6 +106,7 @@ function SignInPage() {
                             placeholder="Enter Your username"
                             fullWidth
                             onChange={e => setPassword(e.target.value)}
+                            required
                         />
 
                         <Button variant='contained' fullWidth type='submit'>Submit</Button>
